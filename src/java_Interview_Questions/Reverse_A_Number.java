@@ -13,24 +13,21 @@ public class Reverse_A_Number
 		int numberToReverse=userInput.nextInt();
 		
 		// appproch 1-logic
+		
 		/*
-		int lastDigit=0;
-		int reverse=0;
+		 * int lastDigit=0; int reverse=0;
+		 * 
+		 * while(numberToReverse!=0) { lastDigit=numberToReverse%10;
+		 * reverse=reverse*10+lastDigit; numberToReverse=numberToReverse/10;
+		 * System.out.println("i"); } System.out.println("reverse number:"+reverse);
+		 */
 		
-		while(numberToReverse!=0)
-		{
-			lastDigit=numberToReverse%10;
-			reverse=reverse*10+lastDigit;
-			numberToReverse=numberToReverse/10;
-		}
-		System.out.println("reverse number:"+reverse);
-		
-		
+
 		//approch 2-StringBuffer
 		StringBuffer buffer=new StringBuffer(String.valueOf(numberToReverse));
 	    StringBuffer reversedValue=buffer.reverse();
 		System.out.println("reversed value:"+reversedValue);
-		*/
+		
 		
 		//approch 3-
 		StringBuilder builder=new StringBuilder(numberToReverse);
@@ -38,7 +35,7 @@ public class Reverse_A_Number
 		StringBuilder reverseBuilder=builder.reverse(); 
 		
 		System.out.println("reverse value:"+reverseBuilder);
-		
+	
 	}
 
 }

@@ -12,7 +12,7 @@ public class LengthOfString
        {
     	   i++;
        }
-       System.out.println("lenghth of given string="+i);
+       System.out.println("lenghth of given string="+i+string.length());
 
 	}
  
