@@ -11,7 +11,7 @@ public class ReadPropertiesFile {
         Properties prop=new Properties();
         FileInputStream fis=new FileInputStream("./ScreenShots//prortiesFile.properties");
         prop.load(fis);
-        
+        //adding comment
         System.out.println(prop);
         prop.getProperty("name");
         System.out.println(prop.getProperty("name"));
