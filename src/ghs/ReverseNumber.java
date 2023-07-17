@@ -8,6 +8,10 @@ public class ReverseNumber {
 		int number= 0;
 		int temp;
 // this line is not in my local
+		//line 1
+		//line 2
+		//line 3
+		//line 1,2,3 are not in cinflict branch
 		
 		while(numberToRverse>0)
 		{
